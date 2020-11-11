@@ -16,7 +16,7 @@ yarn add https://github.com/azwar/ZScrollView
 ```
 
 # Sample
-
+```javascript
     import ZScrollView from  "ZScrollView";
     
     ....
@@ -29,6 +29,7 @@ yarn add https://github.com/azwar/ZScrollView
           renderItem={(item) => <ItemView item={item.item}/>}
         />
     </ZScrollView>
+```
 
 
 ### Props
