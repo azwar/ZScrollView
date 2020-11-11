@@ -17,18 +17,18 @@ yarn add https://github.com/azwar/ZScrollView
 
 # Sample
 ```javascript
-    import ZScrollView from  "ZScrollView";
-    
-    ....
-    
-    <ZScrollView>
-	    <Text>Page title</Text>
-	    <FlatList
-          nestedScrollEnabled={true}
-          data={listData}
-          renderItem={(item) => <ItemView item={item.item}/>}
-        />
-    </ZScrollView>
+import ZScrollView from  "ZScrollView";
+
+....
+
+<ZScrollView>
+    <Text>Page title</Text>
+	<FlatList
+        nestedScrollEnabled={true}
+        data={listData}
+        renderItem={(item) => <ItemView item={item.item}/>}
+    />
+</ZScrollView>
 ```
 
 
