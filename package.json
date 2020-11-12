@@ -1,0 +1,28 @@
+{
+  "name": "react-native-zscrollview",
+  "version": "1.0.0",
+  "description": "This is React Native component to replace default React Native ScrollView.",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azwar/ZScrollView.git"
+  },
+  "keywords": [
+    "ScrollView",
+    "React",
+    "Native"
+  ],
+  "author": "Azwar Akbar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/azwar/ZScrollView/issues"
+  },
+  "homepage": "https://github.com/azwar/ZScrollView#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-native": "^0.63.3"
+  }
+}
